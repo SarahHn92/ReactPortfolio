@@ -6,7 +6,15 @@ import About from "./components/About";
 import Projects from './components/Projects';
 
 function App() {
-    return <Header />;
+    return (
+        <div>
+           <Header />
+           <Nav />
+           <Skills />
+           <About />
+           <Projects /> 
+        </div>
+    ) ;
 }
 
 export default App;
