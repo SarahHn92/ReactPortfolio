@@ -1,14 +1,17 @@
 import React from 'react';
 import '../styles/Nav.css';
 
+
 function Nav(props) {
     return (
         <header className="navbar">
             <nav className="toolbar">
-                <div className="hamburger"></div>
-                <div className="logo"><a href="/">"LOGO"</a></div>
-                <div className="space"></div>                
-                <div className="nav-items">
+                <div className="left">
+                   <div className="hamburger"></div>
+                <div className="logo"><a href="/">Logo</a></div> 
+                </div>
+                               
+                <div className="nav-items right">
                     <ul>
                         <li className="about-nav"><a href="/About">About</a></li>
                         <li className="skills-nav"><a href="/Skills">Skills</a></li>
