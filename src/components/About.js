@@ -8,8 +8,8 @@ function About() {
                 I'm a 28 year old nurse turned web developer. 
                 Due to our family situation, I've been looking at transportable 
                 career options and stumbled upon coding which was a surprising 
-                choice for me! In saying that, I've found the steep learning curve fascinating 
-                and am growing quite passionate about coding. 
+                choice for me! In saying that, I've found the steep learning curve
+                fascinating and am growing quite passionate about coding. 
                 My husband and I have 2 small children and tend
                 to travel around the countryside for his work quite a bit. 
                 I love being outdoors and as a family, we enjoy many

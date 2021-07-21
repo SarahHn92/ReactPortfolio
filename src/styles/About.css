@@ -1,0 +1,14 @@
+.about-div {
+    display: flex;
+    width: 100%;
+}
+
+.about-p {
+    display: flex;
+    justify-content: center;
+    max-width: 40%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
