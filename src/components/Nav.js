@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Nav.css';
+// import {faIgloo} from '@fortawesome/react-fontawesome';
 
 
 function Nav(props) {
@@ -8,7 +9,7 @@ function Nav(props) {
             <nav className="toolbar">
                 <div className="left">
                    <div className="hamburger"></div>
-                <div className="logo"><a href="/">Logo</a></div> 
+                <div className="logo"><a href="/">{<i class="fas fa-igloo"></i>}</a></div> 
                 </div>
                                
                 <div className="nav-items right">
