@@ -1,0 +1,31 @@
+.home-skills {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-top: 150px;    
+}
+
+.html {
+    text-align: center;
+    font-size: 80px;
+    color: #B87076;
+}
+
+.css {
+    text-align: center;
+    font-size: 80px;
+    color: #B87076;
+}
+
+.javascript {
+    text-align: center;
+    font-size: 80px;
+    color: #B87076;
+}
+
+.react {
+    text-align: center;
+    font-size: 80px;
+    color: #B87076;
+}
