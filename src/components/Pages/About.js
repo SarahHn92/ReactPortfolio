@@ -32,15 +32,15 @@ function About() {
                         snorkelling, paragliding, kitesurfing, etc.
                     </p>
                 </div>
-                
-            )}
+        </section>       
+)}        
 
             
 
             
-        </section>
         
-    );
-}
+        
+    
+
 
 export default About;
