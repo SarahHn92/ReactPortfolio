@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Nav.css';
-// import {faIgloo} from '@fortawesome/react-fontawesome';
 
 
 function Nav(props) {

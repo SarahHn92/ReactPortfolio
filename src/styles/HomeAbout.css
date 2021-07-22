@@ -4,7 +4,7 @@
     
 }
 
-.about-div p {
+.home-about {
     display: flex;
     justify-content: center;
     max-width: 40%;
