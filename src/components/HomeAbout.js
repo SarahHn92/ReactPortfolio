@@ -15,6 +15,7 @@ function HomeAbout() {
                 <p className="nurse">
                     Nurse.
                 </p>
+                <br></br>
                 <p className="web-dev">
                     Web developer.
                 </p>

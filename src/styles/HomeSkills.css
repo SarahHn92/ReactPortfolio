@@ -1,6 +1,8 @@
 .home-skills {
     display: flex;
+    height: 500px;
     width: 80%;
+    align-items: center;
     justify-content: space-between;
     margin-left: 200px;
     margin-top: 150px;    

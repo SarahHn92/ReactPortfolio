@@ -3,6 +3,7 @@ import Header from './components/Header';
 import HomeSkills from './components/HomeSkills';
 import HomeAbout from "./components/HomeAbout";
 import HomeProjects from './components/HomeProjects';
+import Footer from './components/Footer.js'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
             <HomeAbout />
             <HomeSkills />
             <HomeProjects />
+            <Footer />
         </div>
     ) ;
 }

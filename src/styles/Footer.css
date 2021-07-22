@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    width: 100%;
+    border-top: 10px solid #AAC0B1;
+    border-bottom: 10px solid #AAC0B1;
+}
+
+.contact-me {
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    display: inline-flex;
+    text-align: center;
+    color: #B87076;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact-select li {
+    display: inline;
+    margin: 10px 20px;
+    color: #AAC0B1;
+}
+
+.contact-select a {
+    text-decoration: none;
+    color: #AAC0B1;
+}
+
+.contact-select i {
+    color: #AAC0B1;
+}
