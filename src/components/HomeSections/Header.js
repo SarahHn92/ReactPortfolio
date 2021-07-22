@@ -1,7 +1,7 @@
 import React from 'react';
-import Photo from'../Assets/croppedGum.png';
-import '../styles/Header.css';
-import Nav from './Nav';
+import Photo from'../../Assets/croppedGum.png';
+import '../../styles/Header.css';
+import Nav from '../Nav';
 
 
 function Header() {

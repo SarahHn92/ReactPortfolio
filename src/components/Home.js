@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import HomeSkills from './components/HomeSkills';
-import HomeAbout from "./components/HomeAbout";
-import HomeProjects from './components/HomeProjects';
-import Footer from './components/Footer.js'
+import Header from './HomeSections/Header';
+import HomeSkills from './HomeSections/HomeSkills';
+import HomeAbout from "./HomeSections/HomeAbout";
+import HomeProjects from './HomeSections/HomeProjects';
+import Footer from './Footer.js'
 
-function PortfolioContainer() {
+function Home() {
 
     // var [homePage, sethomePage] = useState(initialState);
     // const sethomePage = "/";
@@ -20,4 +20,4 @@ function PortfolioContainer() {
     ) ;
 }
 
-export default PortfolioContainer;
+export default Home;

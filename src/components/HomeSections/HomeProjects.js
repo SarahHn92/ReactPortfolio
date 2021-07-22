@@ -1,6 +1,6 @@
 import React from 'react';
-import Photo from '../Assets/Projects.png'
-import '../styles/HomeProjects.css'
+import Photo from '../../Assets/Projects.png'
+import '../../styles/HomeProjects.css'
 
 function HomeProjects() {
     return(
