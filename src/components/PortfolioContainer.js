@@ -24,7 +24,6 @@ function PortfolioContainer() {
         if (currentPage === 'Projects') {
             return <Projects />;
         }
-        return <Footer />
     }
     
     const handlePageChange = (page) => setCurrentPage(page);    
@@ -33,6 +32,7 @@ function PortfolioContainer() {
         <div>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer />
         </div>
     );
 }

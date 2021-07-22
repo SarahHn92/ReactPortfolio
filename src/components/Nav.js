@@ -22,7 +22,7 @@ function Nav({ currentPage, handlePageChange }) {
                     <ul>
                         <li className="about-nav">
                             <a 
-                                href="#About"
+                                href="./Pages/About"
                                 onClick={() => handlePageChange('About')}
                                 className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                                 >
@@ -31,7 +31,7 @@ function Nav({ currentPage, handlePageChange }) {
                         </li>
                         <li className="skills-nav">
                             <a 
-                                href="#Skills"
+                                href="./Pages/Skills"
                                 onClick={() => handlePageChange('Skills')}
                                 className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}
                                 >
@@ -40,7 +40,7 @@ function Nav({ currentPage, handlePageChange }) {
                         </li>
                         <li className="projects-nav">
                             <a 
-                                href="#Projects"
+                                href="./Pages/Projects"
                                 onClick={() => handlePageChange('Projects')}
                                 className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
                                 >
