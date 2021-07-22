@@ -2,13 +2,20 @@ import React from 'react';
 import '../styles/Nav.css';
 
 
-function Nav(props) {
+function Nav({ currentPage, handlePageChange }) {
     return (
         <header className="navbar">
             <nav className="toolbar">
                 <div className="left">
-                   <div className="hamburger"></div>
-                <div className="logo"><a href="/">{<i class="fas fa-igloo"></i>}</a></div> 
+                    <div className="logo">
+                        <a 
+                            href="#home"
+                            onClick={() => handlePageChange('Home')}
+                            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                            >
+                            {<i class="fas fa-igloo"></i>}
+                        </a>
+                    </div> 
                 </div>
                                
                 <div className="nav-items right">
