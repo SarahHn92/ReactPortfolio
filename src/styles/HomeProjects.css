@@ -1,0 +1,17 @@
+.img-section {
+    display: flex;
+    width: 100%;
+    margin-top: 150px;
+}
+
+a {
+    width: 100%;
+}
+
+.projImg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 10px solid #AAC0B1;
+    border-bottom: 10px solid #AAC0B1;
+}

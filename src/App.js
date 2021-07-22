@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
-// import Nav from './components/Nav';
 import HomeSkills from './components/HomeSkills';
 import HomeAbout from "./components/HomeAbout";
-// import Projects from './components/Projects';
+import HomeProjects from './components/HomeProjects';
 
 function App() {
 
@@ -11,9 +10,10 @@ function App() {
     // const sethomePage = "/";
     return (
         <div>
-           <Header />
-           <HomeAbout />
-           <HomeSkills />
+            <Header />
+            <HomeAbout />
+            <HomeSkills />
+            <HomeProjects />
         </div>
     ) ;
 }
