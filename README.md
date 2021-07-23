@@ -17,6 +17,9 @@
  
    ## Description
   A professional portfolio page built with React.
+
+  ## Link
+  [Deployed Portfolio - GitHub Pages](https://sarahhn92.github.io/ReactPortfolio/)
   
   ## Screenshot
   ![Project Screenshot](./projectScrnSht.png)
