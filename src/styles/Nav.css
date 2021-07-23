@@ -22,7 +22,7 @@
 
 
 
-.logo a {
+#logo {
     color: #B87076;
     text-decoration: none;
     font-size: 1.5rem;
@@ -39,19 +39,16 @@
 .nav-items li {
     justify-content: end;
     padding: 0.5rem;
-}
-
-.nav-items a {
     color: #F9EAD7;
     text-decoration: none;
-    
 }
 
-.nav-items a:hover {
+
+.nav-items li:hover {
     color: #748569;
 }
 
-.nav-items a:active {
+.nav-items li:active {
     color: #DCAB9E;
 }
 
