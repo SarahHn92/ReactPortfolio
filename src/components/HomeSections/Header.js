@@ -8,9 +8,6 @@ function Header() {
     return (
         <header className="header">
             <div>
-               <Nav /> 
-            </div>
-            <div>
                 <img className="headerImg" src={Photo} alt="new growth eucalypt leaves"></img>
             </div>
             <div className="title">

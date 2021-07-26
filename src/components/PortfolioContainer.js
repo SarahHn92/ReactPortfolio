@@ -9,7 +9,9 @@ import Footer from './Footer';
 
 function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
-
+    function handlePageChange (page) {
+        setCurrentPage(page); 
+    } 
     const renderPage = () => {
         
         if (currentPage === 'Home') {
@@ -26,7 +28,7 @@ function PortfolioContainer() {
         }
     }
     
-    const handlePageChange = (page) => setCurrentPage(page);    
+       console.log(handlePageChange);
     
     return (
         <div>
